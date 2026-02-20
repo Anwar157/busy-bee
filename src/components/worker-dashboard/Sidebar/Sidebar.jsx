@@ -39,6 +39,9 @@ export default function Sidebar() {
         <li>
           <Link href="/worker/dashboard/support">🆘 Support</Link>
         </li>
+        <li>
+          <Link href="/client/messages">📥 Messages</Link>
+        </li>
 
         <div className="divider"></div>
 

@@ -1,9 +1,10 @@
+import Approved from "@/components/worker-dashboard/approved/Approved";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2>This is approved page</h2>
+      <Approved></Approved>
     </div>
   );
 };

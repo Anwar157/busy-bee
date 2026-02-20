@@ -1,9 +1,10 @@
+import WithDraw from "@/components/worker-dashboard/WithDraw/WithDraw";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2>This is withdraw page</h2>
+      <WithDraw></WithDraw>
     </div>
   );
 };

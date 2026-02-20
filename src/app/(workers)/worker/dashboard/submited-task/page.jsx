@@ -1,9 +1,10 @@
+import SubmitTask from "@/components/worker-dashboard/SubmitTask/SubmitTask";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2>This is task submitted page</h2>
+      <SubmitTask></SubmitTask>
     </div>
   );
 };

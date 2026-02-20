@@ -1,9 +1,10 @@
+import Support from "@/components/worker-dashboard/Support/Support";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2>This is supported page</h2>
+      <Support></Support>
     </div>
   );
 };

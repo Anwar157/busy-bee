@@ -1,9 +1,10 @@
+import WithDrawHistory from "@/components/worker-dashboard/WithDrawHistory/WithDrawHistory";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2>This is withdraw history page</h2>
+      <WithDrawHistory></WithDrawHistory>
     </div>
   );
 };
